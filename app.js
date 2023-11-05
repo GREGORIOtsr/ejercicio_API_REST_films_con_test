@@ -9,8 +9,8 @@ const port = 3000;
 // Routes
 app.use('/api/film', filmsRoutes);
 
-/* app.listen(port, () => {
+app.listen(port, () => {
   console.log(`> Listening on http://localhost:${port}`);
-}); */
+});
 
 module.exports = app;
